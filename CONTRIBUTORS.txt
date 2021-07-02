@@ -505,3 +505,5 @@ contributors:
 * Lorena Buciu (lorena-b): contributor
 
 * Sergei Lebedev (superbobry): contributor
+
+* Bill Yoshimi (byoshimi-github): contributor
