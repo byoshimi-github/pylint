@@ -1276,7 +1276,7 @@ accessed. Python regular expressions are accepted.",
             # those errors are handled by different warnings.
             return
 
-        if called.args.args is None:
+        if not(called.args) or not(called.args.args):
             if called.name == "isinstance":
                 # Verify whether second argument of isinstance is a valid type
                 self._check_isinstance_args(node)
